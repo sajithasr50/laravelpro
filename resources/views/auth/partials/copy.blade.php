@@ -1,0 +1,1 @@
+<p class="mt-5 mb-3 text-muted">Admin panel &copy; {{date('Y')}}</p>
