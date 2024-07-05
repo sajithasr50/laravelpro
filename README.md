@@ -1,5 +1,6 @@
 # laravelpro
 Database : laravel_vot
+
 admin credentials:
 
 username: admin

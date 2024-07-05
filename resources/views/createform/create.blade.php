@@ -26,7 +26,7 @@
                     <span class="text-danger text-left">{{ $errors->first('name') }}</span>
                     @endif
                 </div>
-                <table class="table table-bordered table-hover" id="dynamic_field">
+                <table class="table table-bordered table-hover dynamicfield" id="dynamic_field">
                     <tr id="row0">
                         <td class="type_list"><input type="text" name="field[0][label]" placeholder="Label" class="form-control typeClass" /></td>
                         <td class=""><input type="text" name="field[0][sample_field]" placeholder="Sample Field" class="form-control typeClass" /></td>

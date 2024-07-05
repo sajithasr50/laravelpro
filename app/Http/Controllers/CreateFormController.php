@@ -32,6 +32,7 @@ class CreateFormController extends Controller
         if (empty($fieldtyperow) && $fieldtyperow <= 0) {
             array_push($arrayvalid, 'field type is required');
         }
+        
         if (in_array($fieldtyperow, [4, 5, 6])) {
             if (empty($commentsrow)) {
                 $_POST['field[0][comments]'] = "";
